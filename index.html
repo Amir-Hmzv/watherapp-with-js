@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="search-form">
+        <input type="search"
+        placeholder="Enter City Name"
+        required
+        autocomplete="off"
+        id="search-input">
+       <br>
+       <br>
+        <button id="search-btn">Search</button>
+    </form>
+
+    <main id="app-container">
+        <div id="location">
+            <p></p>
+        </div>
+        <div id="temp">
+            <img id="temp-icon" src="./animated/cloudy-day-1.svg" alt="">
+            <p><span id="temp-value"></span> <span id="temp-unit">&#176c</span></p>
+        </div>
+        <div id="cilmate">
+            <p></p>
+        </div>
+
+
+
+
+    </main>
+  
+
+
+    <script src="app.js"></script>
+</body>
+</html>
